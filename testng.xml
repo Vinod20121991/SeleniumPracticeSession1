@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<!--<groups>
+  	<run>
+  	  <include name="smoke"/>
+  	  <include name="regression"/>
+  	</run>
+  </groups>-->
+	<test name="Personal Loan">
+		<classes>
+			<class name="test.User1_PersonalLoan" />
+			<class name="test.User2_PersonalLoan" />
+			<class name="test.User3_PersonalLoan" />
+		</classes>
+	</test>
+	<test name="Car Loan">
+		<classes>
+			<class name="test.CarLoan">
+			</class>
+		</classes>
+	</test>
+	<test name="Home Loan">
+	  <parameter name="URL" value="https://qaclickacademy.com"/>
+	  <parameter name="Username" value="James Somer"/>
+	  <parameter name="Password" value="Welcome*123"/>
+		<classes>
+			<class name="test.HomeLoan">
+			</class>
+		</classes>
+	</test>
+</suite>
+
+<!--<suite name="Loan Department">
+	<test name="All Loans Test">
+		<packages>
+			<package name="test" />
+		</packages>
+	</test>
+</suite>-->

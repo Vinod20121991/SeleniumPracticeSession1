@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25" started-at="2023-09-11T14:54:28 IST" finished-at="2023-09-11T14:54:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25" started-at="2023-09-11T14:54:28 IST" finished-at="2023-09-11T14:54:28 IST">
+      <class name="test.DataProviderPractice">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:test.DataProviderPractice@65e2dbf3]" name="loginPage" duration-ms="3" started-at="2023-09-11T14:54:28 IST" data-provider="getData" finished-at="2023-09-11T14:54:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First UN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[First Pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:test.DataProviderPractice@65e2dbf3]" name="loginPage" duration-ms="1" started-at="2023-09-11T14:54:28 IST" data-provider="getData" finished-at="2023-09-11T14:54:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second UN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second Pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:test.DataProviderPractice@65e2dbf3]" name="loginPage" duration-ms="1" started-at="2023-09-11T14:54:28 IST" data-provider="getData" finished-at="2023-09-11T14:54:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third UN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Third Pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- test.DataProviderPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
